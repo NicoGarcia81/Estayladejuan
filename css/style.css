@@ -1,0 +1,43 @@
+h1 {
+  font-size: 3rem; }
+
+.color-boton {
+  background-color: #9f23be;
+  color: black; }
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #eb0d3d;
+  border-color: var(--bs-btn-hover-border-color); }
+
+.navbar {
+  padding: -9rem;
+  --bs-navbar-hover-color: rgb(255, 2, 2); }
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: rgba(255, 255, 255, 0);
+  background-color: white;
+  border: var(--bs-border-width);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition); }
+
+.color-nav {
+  background-color: black; }
+
+.nav-link {
+  color: aliceblue; }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: white; }
+
+.nav-link.disabled {
+  color: white; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

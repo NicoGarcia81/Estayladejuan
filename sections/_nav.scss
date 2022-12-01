@@ -7,6 +7,11 @@ h1 {
     color: black;
 }
 
+.logo {
+    margin: 30px;
+    display: inline;
+}
+
 .btn:hover {
     color: var(--bs-btn-hover-color);
     background-color: rgb(235, 13, 61);
@@ -14,6 +19,7 @@ h1 {
 }
 
 .navbar {
+    height: 100px;
     padding: -9rem;
     --bs-navbar-hover-color: rgb(255, 2, 2);
 }

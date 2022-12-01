@@ -5,12 +5,17 @@ h1 {
   background-color: #9f23be;
   color: black; }
 
+.logo {
+  margin: 30px;
+  display: inline; }
+
 .btn:hover {
   color: var(--bs-btn-hover-color);
   background-color: #eb0d3d;
   border-color: var(--bs-btn-hover-border-color); }
 
 .navbar {
+  height: 100px;
   padding: -9rem;
   --bs-navbar-hover-color: rgb(255, 2, 2); }
 
@@ -36,6 +41,15 @@ h1 {
 
 .nav-link.disabled {
   color: white; }
+
+.whatsapp {
+  display: flex;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  justify-content: flex-end; }
 
 * {
   margin: 0;

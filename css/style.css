@@ -15,7 +15,7 @@ h1 {
   border-color: var(--bs-btn-hover-border-color); }
 
 .navbar {
-  height: 100px;
+  height: 140px;
   padding: -9rem;
   --bs-navbar-hover-color: rgb(255, 2, 2); }
 

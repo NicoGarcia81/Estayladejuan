@@ -5,17 +5,12 @@ h1 {
   background-color: #9f23be;
   color: black; }
 
-.logo {
-  margin: 30px;
-  display: inline; }
-
 .btn:hover {
   color: var(--bs-btn-hover-color);
   background-color: #eb0d3d;
   border-color: var(--bs-btn-hover-border-color); }
 
 .navbar {
-  height: 140px;
   padding: -9rem;
   --bs-navbar-hover-color: rgb(255, 2, 2); }
 
